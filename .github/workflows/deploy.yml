@@ -1,4 +1,4 @@
-name: Deploy VectorForge to GitHub Pages
+name: Deploy MathsForge to GitHub Pages
 
 on:
   push:

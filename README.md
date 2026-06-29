@@ -1,6 +1,6 @@
-# VectorForge - Class 12 Vector Algebra Visual Learning Platform
+# MathsForge - Class 12 Vector Algebra Visual Learning Platform
 
-VectorForge is a free, public-website-ready learning platform for **Class 12 Mathematics: Vectors / Vector Algebra**.
+MathsForge is a free, public-website-ready learning platform for **Class 12 Mathematics: Vectors / Vector Algebra**.
 
 It is built for CBSE Boards, JEE Main, JEE Advanced foundation, and students who want visual understanding for maths and physics vectors.
 
@@ -96,7 +96,7 @@ Go to [https://github.com](https://github.com) and create a free account.
 3. Give it a name, for example:
 
 ```text
-vectorforge-class12-vectors
+mathsforge
 ```
 
 4. Choose `Public`.
@@ -117,7 +117,7 @@ Command-line method:
 ```bash
 git init
 git add .
-git commit -m "Initial VectorForge website"
+git commit -m "Initial MathsForge website"
 git branch -M main
 git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPOSITORY-NAME.git
 git push -u origin main
@@ -157,7 +157,7 @@ The included file `.github/workflows/deploy.yml` will build and publish the webs
 To publish manually:
 
 1. Open the `Actions` tab.
-2. Click `Deploy VectorForge to GitHub Pages`.
+2. Click `Deploy MathsForge to GitHub Pages`.
 3. Click `Run workflow`.
 
 ### 8. Copy the public website link
@@ -171,7 +171,7 @@ https://your-github-username.github.io/your-repository-name/
 Example:
 
 ```text
-https://armaan.github.io/vectorforge-class12-vectors/
+https://armaankapoor-ship-it.github.io/mathsforge/
 ```
 
 You can share this link with classmates, teachers, and students.
@@ -196,7 +196,7 @@ pnpm run build
 
 ```bash
 git add .
-git commit -m "Update VectorForge content"
+git commit -m "Update MathsForge content"
 git push
 ```
 
@@ -260,4 +260,4 @@ This is required for GitHub Pages project sites.
 
 ## Educational Disclaimer
 
-VectorForge is an independent educational project. It is designed to support Class 12 CBSE and JEE preparation, but students should always refer to the current official syllabus, NCERT textbook, and exam instructions as the final authority.
+MathsForge is an independent educational project. It is designed to support Class 12 CBSE and JEE preparation, but students should always refer to the current official syllabus, NCERT textbook, and exam instructions as the final authority.

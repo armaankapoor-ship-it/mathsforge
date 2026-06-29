@@ -49,14 +49,14 @@ const navItems = [
 function useLocalProgress() {
   const [done, setDone] = useState(() => {
     try {
-      return new Set(JSON.parse(localStorage.getItem('vectorforge-progress') || '[]'))
+      return new Set(JSON.parse(localStorage.getItem('mathsforge-progress') || '[]'))
     } catch {
       return new Set()
     }
   })
 
   useEffect(() => {
-    localStorage.setItem('vectorforge-progress', JSON.stringify([...done]))
+    localStorage.setItem('mathsforge-progress', JSON.stringify([...done]))
   }, [done])
 
   const toggle = (id) => {
@@ -72,14 +72,14 @@ function useLocalProgress() {
 }
 
 function App() {
-  const [dark, setDark] = useState(() => localStorage.getItem('vectorforge-theme') === 'dark')
+  const [dark, setDark] = useState(() => localStorage.getItem('mathsforge-theme') === 'dark')
   const [active, setActive] = useState('home')
   const [menuOpen, setMenuOpen] = useState(false)
   const progress = useLocalProgress()
 
   useEffect(() => {
     document.documentElement.classList.toggle('dark', dark)
-    localStorage.setItem('vectorforge-theme', dark ? 'dark' : 'light')
+    localStorage.setItem('mathsforge-theme', dark ? 'dark' : 'light')
   }, [dark])
 
   useEffect(() => {
@@ -122,9 +122,9 @@ function Header({ dark, setDark, active, menuOpen, setMenuOpen }) {
   return (
     <header className="fixed inset-x-0 top-0 z-50 px-3 pt-3 md:px-6 md:pt-4">
       <nav className="mx-auto flex max-w-7xl items-center justify-between rounded-2xl border border-white/70 bg-white/80 px-4 py-3 shadow-soft backdrop-blur-xl dark:border-white/10 dark:bg-[#0c1820]/82">
-        <a href="#home" className="flex items-center gap-3" aria-label="VectorForge home">
+        <a href="#home" className="flex items-center gap-3" aria-label="MathsForge home">
           <span className="brand-mark"><Sigma size={21} /></span>
-          <span className="font-display text-sm font-black">VECTOR<span>FORGE</span></span>
+          <span className="font-display text-sm font-black">MATHS<span>FORGE</span></span>
         </a>
         <div className="hidden items-center gap-1 xl:flex">
           {navItems.map(([id, label]) => (
@@ -634,7 +634,7 @@ function Footer() {
     <footer className="border-t border-slate-200 bg-white px-5 py-12 dark:border-white/10 dark:bg-[#071016]">
       <div className="mx-auto flex max-w-7xl flex-col justify-between gap-6 md:flex-row md:items-end">
         <div>
-          <div className="flex items-center gap-3 font-black"><span className="brand-mark"><Sigma size={20} /></span> VECTORFORGE</div>
+          <div className="flex items-center gap-3 font-black"><span className="brand-mark"><Sigma size={20} /></span> MATHSFORGE</div>
           <p className="mt-3 max-w-xl text-sm leading-6 text-slate-600 dark:text-slate-400">
             Original static learning website for Class 12 Vector Algebra. Built with free frontend tools, local JSON content, SVG, KaTeX, and Three.js.
           </p>

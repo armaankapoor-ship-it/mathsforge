@@ -1,4 +1,4 @@
-# Deploy VectorForge to the Public Internet for Free
+# Deploy MathsForge to the Public Internet for Free
 
 Use GitHub Pages. It is free and works with this static frontend project.
 
