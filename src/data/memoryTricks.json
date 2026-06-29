@@ -1,0 +1,50 @@
+[
+  [
+    "Unit vector",
+    "Divide by length: direction stays, size becomes 1."
+  ],
+  [
+    "Vector addition",
+    "Head to tail gives final trail."
+  ],
+  [
+    "Vector subtraction",
+    "Minus means add the opposite arrow."
+  ],
+  [
+    "Scalar multiplication",
+    "Positive stretches, negative flips."
+  ],
+  [
+    "Dot product",
+    "Dot asks: how much goes along?"
+  ],
+  [
+    "Cross product",
+    "Cross asks: how much area stands out?"
+  ],
+  [
+    "Projection",
+    "Projection is the shadow on another vector."
+  ],
+  [
+    "Direction cosines",
+    "Cosines are normalized direction ratios."
+  ],
+  [
+    "Perpendicular condition",
+    "Right angle means dot is zero."
+  ],
+  [
+    "Parallel condition",
+    "No spread means cross is zero."
+  ],
+  [
+    "Area using cross product",
+    "Parallelogram area is cross magnitude."
+  ],
+  [
+    "Right-hand rule",
+    "Curl A to B, thumb gives A cross B."
+  ]
+]

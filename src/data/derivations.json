@@ -1,0 +1,201 @@
+[
+  {
+    "id": "magnitude-2d",
+    "title": "Magnitude of a vector in 2D",
+    "finalFormula": "\\lvert\\vec A\\rvert=\\sqrt{x^2+y^2}",
+    "steps": [
+      "Represent A as xi + yj, ending at point (x, y).",
+      "Drop perpendiculars to form a right triangle with legs |x| and |y|.",
+      "By Pythagoras, length squared is x^2 + y^2.",
+      "Take the positive square root because magnitude is non-negative."
+    ],
+    "geometry": "The vector is the hypotenuse of the component triangle.",
+    "jeeShortcut": "Use |A|^2 first to avoid unnecessary square roots.",
+    "cbseWriting": "Draw axes, mark components, write Pythagoras, then the final formula.",
+    "commonMistake": "Writing x + y instead of sqrt(x^2 + y^2)."
+  },
+  {
+    "id": "magnitude-3d",
+    "title": "Magnitude of a vector in 3D",
+    "finalFormula": "\\lvert\\vec A\\rvert=\\sqrt{x^2+y^2+z^2}",
+    "steps": [
+      "Take the projection of A on the xy-plane. Its length is sqrt(x^2 + y^2).",
+      "Now combine that projected length with the vertical z-component.",
+      "Use Pythagoras again: |A|^2 = x^2 + y^2 + z^2.",
+      "Magnitude is the positive square root."
+    ],
+    "geometry": "3D magnitude is two right triangles joined together.",
+    "jeeShortcut": "For comparison questions, compare squared magnitudes.",
+    "cbseWriting": "Mention that components along i, j, k are mutually perpendicular.",
+    "commonMistake": "Ignoring the z-component in a 3D vector."
+  },
+  {
+    "id": "unit-vector",
+    "title": "Unit vector formula",
+    "finalFormula": "\\hat A=\\vec A/\\lvert\\vec A\\rvert",
+    "steps": [
+      "A unit vector must have magnitude 1.",
+      "Dividing a non-zero vector by a positive scalar changes only length, not direction.",
+      "Divide A by its own magnitude.",
+      "The new magnitude is |A|/|A| = 1."
+    ],
+    "geometry": "The arrow points the same way but is resized to one unit.",
+    "jeeShortcut": "Vector of magnitude k along A is kA/|A|.",
+    "cbseWriting": "State A is non-zero before dividing.",
+    "commonMistake": "Trying to find a unit vector along the zero vector."
+  },
+  {
+    "id": "addition-components",
+    "title": "Vector addition component formula",
+    "finalFormula": "\\vec A+\\vec B=(a_1+b_1)\\hat i+(a_2+b_2)\\hat j+(a_3+b_3)\\hat k",
+    "steps": [
+      "Write both vectors in i, j, k form.",
+      "Use the fact that i, j, k directions are independent.",
+      "Combine only like components.",
+      "The resultant has the combined x, y, z effects."
+    ],
+    "geometry": "Head-to-tail construction lands at the same final point as component addition.",
+    "jeeShortcut": "Add coordinate triples directly.",
+    "cbseWriting": "Group i terms, j terms, and k terms on separate lines if needed.",
+    "commonMistake": "Adding magnitudes instead of components."
+  },
+  {
+    "id": "section-formula",
+    "title": "Section formula in vector form",
+    "finalFormula": "\\vec r=\\frac{m\\vec B+n\\vec A}{m+n}",
+    "steps": [
+      "Let point P divide AB in ratio AP:PB = m:n.",
+      "Then displacement from A to P is m/(m+n) of AB.",
+      "Write r = A + [m/(m+n)](B - A).",
+      "Simplify to r = (mB + nA)/(m+n)."
+    ],
+    "geometry": "P is a weighted average of A and B.",
+    "jeeShortcut": "Midpoint is the special case m = n = 1.",
+    "cbseWriting": "State the ratio clearly before substituting.",
+    "commonMistake": "Interchanging m and n weights."
+  },
+  {
+    "id": "dot-cosine-rule",
+    "title": "Dot product from cosine rule",
+    "finalFormula": "\\vec A\\cdot\\vec B=\\lvert A\\rvert\\lvert B\\rvert\\cos\\theta",
+    "steps": [
+      "Place A and B tail-to-tail with angle theta.",
+      "The side between their tips has vector A - B.",
+      "By cosine rule, |A - B|^2 = |A|^2 + |B|^2 - 2|A||B|cos theta.",
+      "By component expansion, |A - B|^2 = |A|^2 + |B|^2 - 2(A dot B).",
+      "Compare the two expressions."
+    ],
+    "geometry": "Cos theta enters because the triangle between A and B controls the gap between tips.",
+    "jeeShortcut": "Use dot product immediately for angle questions.",
+    "cbseWriting": "Keep both expansions visible before comparing.",
+    "commonMistake": "Using sin theta in dot product."
+  },
+  {
+    "id": "dot-component",
+    "title": "Dot product component formula",
+    "finalFormula": "\\vec A\\cdot\\vec B=a_1b_1+a_2b_2+a_3b_3",
+    "steps": [
+      "Write A and B in i, j, k form.",
+      "Expand distributively.",
+      "Use i dot i = j dot j = k dot k = 1.",
+      "Use dot product of different unit vectors as 0.",
+      "Only like-component products remain."
+    ],
+    "geometry": "Only same-axis shadows contribute to along-effect.",
+    "jeeShortcut": "Multiply corresponding entries and add.",
+    "cbseWriting": "Mention orthonormal unit vector properties.",
+    "commonMistake": "Forgetting that i dot j = 0."
+  },
+  {
+    "id": "angle-between",
+    "title": "Angle between two vectors",
+    "finalFormula": "\\theta=\\cos^{-1}\\frac{\\vec A\\cdot\\vec B}{|A||B|}",
+    "steps": [
+      "Start from A dot B = |A||B|cos theta.",
+      "Divide by |A||B| for non-zero vectors.",
+      "Apply inverse cosine to get theta.",
+      "Check if the dot product sign makes the angle acute, right, or obtuse."
+    ],
+    "geometry": "The sign of dot product previews the angle type.",
+    "jeeShortcut": "If dot is 0, skip calculation: theta = 90 degrees.",
+    "cbseWriting": "Write the non-zero condition.",
+    "commonMistake": "Using the angle each vector makes with x-axis instead of angle between them."
+  },
+  {
+    "id": "projection",
+    "title": "Projection formula",
+    "finalFormula": "\\operatorname{proj}_{B}A=\\frac{A\\cdot B}{|B|^2}B",
+    "steps": [
+      "The scalar projection of A on B is |A|cos theta.",
+      "From dot product, |A|cos theta = (A dot B)/|B|.",
+      "Direction along B is the unit vector B/|B|.",
+      "Multiply scalar projection by B/|B|."
+    ],
+    "geometry": "Projection is the shadow of A on B.",
+    "jeeShortcut": "Use vector projection to split A into parallel and perpendicular components.",
+    "cbseWriting": "Differentiate scalar projection and vector projection.",
+    "commonMistake": "Missing the square on |B| in vector projection."
+  },
+  {
+    "id": "cross-area",
+    "title": "Cross product magnitude as parallelogram area",
+    "finalFormula": "|A\\times B|=|A||B|\\sin\\theta",
+    "steps": [
+      "Area of a parallelogram is base times height.",
+      "Take base as |A|.",
+      "The height from B perpendicular to A is |B|sin theta.",
+      "Therefore area = |A||B|sin theta.",
+      "Define cross product magnitude to represent this oriented area."
+    ],
+    "geometry": "Cross product measures spread perpendicular to the line of A.",
+    "jeeShortcut": "Use cross product for area questions immediately.",
+    "cbseWriting": "Draw the height clearly.",
+    "commonMistake": "Using cos theta instead of sin theta."
+  },
+  {
+    "id": "cross-determinant",
+    "title": "Cross product determinant formula",
+    "finalFormula": "A\\times B=(a_2b_3-a_3b_2)i-(a_1b_3-a_3b_1)j+(a_1b_2-a_2b_1)k",
+    "steps": [
+      "Use determinant form with i, j, k in the first row.",
+      "Expand along the first row.",
+      "The i component uses the yz minor.",
+      "The j component has a negative sign.",
+      "The k component uses the xy minor."
+    ],
+    "geometry": "Each component is an oriented 2D area seen from one axis.",
+    "jeeShortcut": "Remember the middle component sign.",
+    "cbseWriting": "Use determinant notation then expand.",
+    "commonMistake": "Losing the minus sign on j."
+  },
+  {
+    "id": "triangle-area",
+    "title": "Area of triangle using cross product",
+    "finalFormula": "\\Delta=\\frac12|AB\\times AC|",
+    "steps": [
+      "Choose one vertex as common starting point.",
+      "Form two side vectors from that vertex.",
+      "Their cross product magnitude gives parallelogram area.",
+      "A triangle is half of that parallelogram."
+    ],
+    "geometry": "Two copies of the triangle make the parallelogram.",
+    "jeeShortcut": "For coordinates, form AB and AC first.",
+    "cbseWriting": "Show side vectors before determinant.",
+    "commonMistake": "Crossing position vectors instead of side vectors for arbitrary points."
+  },
+  {
+    "id": "direction-cosine-identity",
+    "title": "Direction cosine identity",
+    "finalFormula": "l^2+m^2+n^2=1",
+    "steps": [
+      "For vector A = ai + bj + ck, direction cosines are a/r, b/r, c/r.",
+      "Square and add them.",
+      "The numerator becomes a^2 + b^2 + c^2.",
+      "This equals r^2, so the quotient is 1."
+    ],
+    "geometry": "Direction cosines are components of a unit vector.",
+    "jeeShortcut": "Use the identity to find a missing direction cosine.",
+    "cbseWriting": "Define r = |A| before starting.",
+    "commonMistake": "Writing l + m + n = 1."
+  }
+]

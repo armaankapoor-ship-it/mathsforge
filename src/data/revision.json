@@ -1,0 +1,234 @@
+{
+  "top25Formulas": [
+    {
+      "title": "Magnitude of a vector",
+      "latex": "\\lvert \\vec A \\rvert=\\sqrt{a_1^2+a_2^2+a_3^2}",
+      "trap": "Do not add components directly. Magnitude of 2i + 3j is not 5; it is sqrt(13)."
+    },
+    {
+      "title": "Unit vector",
+      "latex": "\\hat A=\\frac{\\vec A}{\\lvert \\vec A \\rvert}",
+      "trap": "Never divide by a zero vector because its direction is undefined."
+    },
+    {
+      "title": "Vector addition",
+      "latex": "\\vec A+\\vec B=(a_1+b_1)\\hat i+(a_2+b_2)\\hat j+(a_3+b_3)\\hat k",
+      "trap": "Do not add magnitudes unless the vectors are in the same direction."
+    },
+    {
+      "title": "Vector subtraction",
+      "latex": "\\vec A-\\vec B=(a_1-b_1)\\hat i+(a_2-b_2)\\hat j+(a_3-b_3)\\hat k",
+      "trap": "A - B and B - A are opposite vectors."
+    },
+    {
+      "title": "Scalar multiplication",
+      "latex": "\\lambda \\vec A=\\lambda a_1\\hat i+\\lambda a_2\\hat j+\\lambda a_3\\hat k",
+      "trap": "If lambda = 0, the result is the zero vector with no direction."
+    },
+    {
+      "title": "Section formula in vector form",
+      "latex": "\\vec r=\\frac{m\\vec B+n\\vec A}{m+n}",
+      "trap": "For AP:PB = m:n, the formula is (mB + nA)/(m+n), not (mA + nB)/(m+n)."
+    },
+    {
+      "title": "Dot product geometry",
+      "latex": "\\vec A\\cdot\\vec B=\\lvert \\vec A\\rvert\\lvert \\vec B\\rvert\\cos\\theta",
+      "trap": "A dot B = 0 means perpendicular only when both vectors are non-zero."
+    },
+    {
+      "title": "Dot product component form",
+      "latex": "\\vec A\\cdot\\vec B=a_1b_1+a_2b_2+a_3b_3",
+      "trap": "Do not multiply unlike components such as a1b2."
+    },
+    {
+      "title": "Angle between two vectors",
+      "latex": "\\cos\\theta=\\frac{\\vec A\\cdot\\vec B}{\\lvert \\vec A\\rvert\\lvert \\vec B\\rvert}",
+      "trap": "Use the angle between vectors, not angle from an axis unless one vector is that axis."
+    },
+    {
+      "title": "Perpendicular condition",
+      "latex": "\\vec A\\cdot\\vec B=0",
+      "trap": "The zero vector has dot product zero with every vector but is not given a direction."
+    },
+    {
+      "title": "Scalar projection",
+      "latex": "\\operatorname{comp}_{\\vec B}\\vec A=\\frac{\\vec A\\cdot\\vec B}{\\lvert \\vec B\\rvert}",
+      "trap": "Scalar projection is a number; vector projection is a vector."
+    },
+    {
+      "title": "Vector projection",
+      "latex": "\\operatorname{proj}_{\\vec B}\\vec A=\\frac{\\vec A\\cdot\\vec B}{\\lvert \\vec B\\rvert^2}\\vec B",
+      "trap": "Denominator is |B|^2 because B itself is not usually a unit vector."
+    },
+    {
+      "title": "Cross product magnitude",
+      "latex": "\\lvert\\vec A\\times\\vec B\\rvert=\\lvert\\vec A\\rvert\\lvert\\vec B\\rvert\\sin\\theta",
+      "trap": "Cross product is zero for parallel vectors even if magnitudes are large."
+    },
+    {
+      "title": "Cross product determinant",
+      "latex": "\\vec A\\times\\vec B=\\begin{vmatrix}\\hat i&\\hat j&\\hat k\\\\a_1&a_2&a_3\\\\b_1&b_2&b_3\\end{vmatrix}",
+      "trap": "The j component has a negative sign during expansion."
+    },
+    {
+      "title": "Parallel condition",
+      "latex": "\\vec A\\times\\vec B=\\vec 0",
+      "trap": "Zero cross product may also involve a zero vector; check non-zero condition."
+    },
+    {
+      "title": "Area of parallelogram",
+      "latex": "\\text{Area}=\\lvert\\vec A\\times\\vec B\\rvert",
+      "trap": "Do not use dot product for area."
+    },
+    {
+      "title": "Area of triangle",
+      "latex": "\\text{Area}=\\frac12\\lvert\\vec A\\times\\vec B\\rvert",
+      "trap": "Use two vectors from the same initial point."
+    },
+    {
+      "title": "Direction cosines",
+      "latex": "l=\\cos\\alpha,\\quad m=\\cos\\beta,\\quad n=\\cos\\gamma",
+      "trap": "Direction cosines are not the same as direction ratios unless the vector is already unit length."
+    },
+    {
+      "title": "Direction cosine identity",
+      "latex": "l^2+m^2+n^2=1",
+      "trap": "Use squares. l + m + n is not generally one."
+    },
+    {
+      "title": "Direction ratios",
+      "latex": "\\text{For }\\vec A=a\\hat i+b\\hat j+c\\hat k,\\text{ D.R.s are }a,b,c",
+      "trap": "Direction ratios are not unique."
+    },
+    {
+      "title": "Scalar triple product",
+      "latex": "[\\vec A\\,\\vec B\\,\\vec C]=\\vec A\\cdot(\\vec B\\times\\vec C)",
+      "trap": "Changing order can change sign."
+    },
+    {
+      "title": "Collinearity condition",
+      "latex": "\\vec A=\\lambda\\vec B",
+      "trap": "Equal slopes in two components are not enough in 3D; check all components."
+    },
+    {
+      "title": "Coplanarity condition",
+      "latex": "\\vec A\\cdot(\\vec B\\times\\vec C)=0",
+      "trap": "Coplanar does not mean pairwise parallel."
+    },
+    {
+      "title": "Work as dot product",
+      "latex": "W=\\vec F\\cdot\\vec s=Fs\\cos\\theta",
+      "trap": "A large perpendicular force can do zero work."
+    },
+    {
+      "title": "Torque as cross product",
+      "latex": "\\vec \\tau=\\vec r\\times\\vec F",
+      "trap": "Force along the radius gives zero torque."
+    }
+  ],
+  "top20Concepts": [
+    "Magnitude is length, direction is orientation.",
+    "Equal vectors can be located differently.",
+    "Vector addition combines effects, not just sizes.",
+    "Subtraction means adding the negative vector.",
+    "Scalar multiplication can reverse direction.",
+    "Unit vector is direction only.",
+    "Dot product gives a scalar along-effect.",
+    "cos theta appears because dot product measures projection.",
+    "Dot product zero means perpendicular for non-zero vectors.",
+    "Projection is a shadow.",
+    "Cross product gives a perpendicular vector.",
+    "sin theta appears because cross product measures area height.",
+    "A x B is the negative of B x A.",
+    "Cross product zero means parallel for non-zero vectors.",
+    "Area of parallelogram is |A x B|.",
+    "Area of triangle is half |A x B|.",
+    "Direction cosines are normalized components.",
+    "l^2 + m^2 + n^2 = 1.",
+    "Collinearity uses scalar multiple form.",
+    "Coplanarity uses zero scalar triple product."
+  ],
+  "top15Traps": [
+    "Adding vector magnitudes instead of components.",
+    "Forgetting zero vector has no definite direction.",
+    "Confusing scalar projection and vector projection.",
+    "Using dot product for area.",
+    "Using cross product for perpendicular condition.",
+    "Missing the middle sign in determinant expansion.",
+    "Reversing A x B and B x A.",
+    "Writing l + m + n = 1.",
+    "Treating direction ratios as unique.",
+    "Using position vectors instead of side vectors for triangle area.",
+    "Forgetting non-zero condition in parallel/perpendicular tests.",
+    "Mixing AP:PB weights in section formula.",
+    "Not checking sign of dot product for angle type.",
+    "Normalizing when only direction ratios are asked.",
+    "Calling cross product magnitude a vector."
+  ],
+  "top10Diagrams": [
+    "Scalar vs vector comparison",
+    "Directed line segment",
+    "Position vector in 2D",
+    "Position vector in 3D",
+    "Magnitude of vector",
+    "Unit vector formation",
+    "Equal vectors",
+    "Negative vectors",
+    "Parallel vectors",
+    "Collinear vectors"
+  ],
+  "top10ThreeDIdeas": [
+    "Axes with vector endpoint and dotted component box",
+    "Head-to-tail vector addition",
+    "A - B as A + (-B)",
+    "Scalar multiplication with direction flip",
+    "Dot product angle and projection shadow",
+    "Cross product perpendicular arrow",
+    "Right-hand rule orientation switch",
+    "Parallelogram area panel",
+    "Triangle area half-panel",
+    "Direction cosines on unit sphere"
+  ],
+  "top10QuestionTypes": [
+    "Find magnitude",
+    "Find unit vector",
+    "Add or subtract vectors",
+    "Find section point",
+    "Find angle using dot product",
+    "Find projection",
+    "Check perpendicularity",
+    "Find cross product",
+    "Area using cross product",
+    "Check parallel/collinear/coplanar"
+  ],
+  "thirtyMinutePlan": [
+    "5 min: revise vector types and component form.",
+    "6 min: dot product formulas and projection.",
+    "6 min: cross product, area, and right-hand rule.",
+    "5 min: direction cosines and section formula.",
+    "5 min: traps list.",
+    "3 min: solve two mixed examples."
+  ],
+  "lastDayPlan": [
+    "Read the one-page sheet twice.",
+    "Solve 10 CBSE direct problems.",
+    "Solve 10 JEE mixed objective problems.",
+    "Redo all mistakes from dot/cross/projection.",
+    "Practice drawing triangle, parallelogram, and projection diagrams."
+  ],
+  "examHallStrategy": [
+    "Identify whether the question asks length, shadow, area, direction, or condition.",
+    "Write vectors in component form immediately.",
+    "Use dot for angle/projection/perpendicular.",
+    "Use cross for area/perpendicular vector/parallel.",
+    "Keep exact radical form unless decimal is demanded."
+  ],
+  "finalChecklist": [
+    "I can explain why vectors need magnitude and direction.",
+    "I can draw addition and subtraction diagrams.",
+    "I can derive magnitude, dot product, projection, cross product area, and direction cosine identity.",
+    "I can solve CBSE board-style steps neatly.",
+    "I can solve JEE Main component questions quickly.",
+    "I can explain right-hand rule and why A x B = -(B x A)."
+  ]
+}

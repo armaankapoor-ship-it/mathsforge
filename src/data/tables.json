@@ -1,0 +1,122 @@
+[
+  {
+    "title": "Scalar vs Vector",
+    "columns": [
+      "Feature",
+      "Scalar",
+      "Vector"
+    ],
+    "rows": [
+      [
+        "Meaning",
+        "Magnitude only",
+        "Magnitude and direction"
+      ],
+      [
+        "Example",
+        "Mass, time, temperature",
+        "Displacement, velocity, force"
+      ],
+      [
+        "Addition",
+        "Ordinary arithmetic",
+        "Triangle/parallelogram/component addition"
+      ],
+      [
+        "Diagram",
+        "No arrow needed",
+        "Represented by directed line segment"
+      ]
+    ]
+  },
+  {
+    "title": "Types of vectors",
+    "columns": [
+      "Type",
+      "Meaning",
+      "Trap"
+    ],
+    "rows": [
+      [
+        "Zero vector",
+        "Magnitude zero",
+        "Direction is undefined"
+      ],
+      [
+        "Unit vector",
+        "Magnitude one",
+        "It is not always i, j, or k"
+      ],
+      [
+        "Equal vectors",
+        "Same magnitude and direction",
+        "Can be at different locations"
+      ],
+      [
+        "Negative vector",
+        "Same magnitude opposite direction",
+        "A - B is not B - A"
+      ]
+    ]
+  },
+  {
+    "title": "Dot product vs Cross product",
+    "columns": [
+      "Feature",
+      "Dot product",
+      "Cross product"
+    ],
+    "rows": [
+      [
+        "Output",
+        "Scalar",
+        "Vector"
+      ],
+      [
+        "Formula",
+        "|A||B|cos theta",
+        "|A||B|sin theta with direction"
+      ],
+      [
+        "Measures",
+        "Along-ness / projection",
+        "Perpendicular area effect"
+      ],
+      [
+        "Zero when",
+        "Perpendicular",
+        "Parallel"
+      ]
+    ]
+  },
+  {
+    "title": "Conditions",
+    "columns": [
+      "Condition",
+      "Formula",
+      "Meaning"
+    ],
+    "rows": [
+      [
+        "Perpendicular",
+        "A dot B = 0",
+        "No shadow along each other"
+      ],
+      [
+        "Parallel",
+        "A x B = 0",
+        "No area spread"
+      ],
+      [
+        "Collinear points",
+        "AB = lambda AC",
+        "Same line"
+      ],
+      [
+        "Coplanar vectors",
+        "A dot (B x C) = 0",
+        "Zero volume"
+      ]
+    ]
+  }
+]

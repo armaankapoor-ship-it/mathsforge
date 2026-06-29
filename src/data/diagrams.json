@@ -1,0 +1,648 @@
+[
+  {
+    "id": "scalar-vs-vector-comparison",
+    "number": 1,
+    "title": "Scalar vs vector comparison",
+    "what": "Shows scalar vs vector comparison with clean arrows, labels, and a highlighted result.",
+    "labels": [
+      "O",
+      "A",
+      "B"
+    ],
+    "concept": "Vector basics",
+    "confusionRemoved": "Students see whether the concept is about length, direction, shadow, area, or perpendicular direction.",
+    "paperMethod": "Draw axes lightly, mark the initial point, use arrowheads, show dotted components, and label the final vector clearly.",
+    "digitalMethod": "Build with responsive SVG for 2D visuals and Three.js arrows for 3D visuals. Keep labels in HTML overlays for readability.",
+    "type": "2D animated",
+    "render": "components"
+  },
+  {
+    "id": "directed-line-segment",
+    "number": 2,
+    "title": "Directed line segment",
+    "what": "Shows directed line segment with clean arrows, labels, and a highlighted result.",
+    "labels": [
+      "O",
+      "A",
+      "B",
+      "theta"
+    ],
+    "concept": "Vector basics",
+    "confusionRemoved": "Students see whether the concept is about length, direction, shadow, area, or perpendicular direction.",
+    "paperMethod": "Draw axes lightly, mark the initial point, use arrowheads, show dotted components, and label the final vector clearly.",
+    "digitalMethod": "Build with responsive SVG for 2D visuals and Three.js arrows for 3D visuals. Keep labels in HTML overlays for readability.",
+    "type": "2D SVG",
+    "render": "triangle"
+  },
+  {
+    "id": "position-vector-in-2d",
+    "number": 3,
+    "title": "Position vector in 2D",
+    "what": "Shows position vector in 2d with clean arrows, labels, and a highlighted result.",
+    "labels": [
+      "O",
+      "A",
+      "B",
+      "theta",
+      "components"
+    ],
+    "concept": "Vector basics",
+    "confusionRemoved": "Students see whether the concept is about length, direction, shadow, area, or perpendicular direction.",
+    "paperMethod": "Draw axes lightly, mark the initial point, use arrowheads, show dotted components, and label the final vector clearly.",
+    "digitalMethod": "Build with responsive SVG for 2D visuals and Three.js arrows for 3D visuals. Keep labels in HTML overlays for readability.",
+    "type": "2D SVG",
+    "render": "parallelogram"
+  },
+  {
+    "id": "position-vector-in-3d",
+    "number": 4,
+    "title": "Position vector in 3D",
+    "what": "Shows position vector in 3d with clean arrows, labels, and a highlighted result.",
+    "labels": [
+      "O",
+      "A",
+      "B",
+      "theta",
+      "components",
+      "resultant"
+    ],
+    "concept": "Vector basics",
+    "confusionRemoved": "Students see whether the concept is about length, direction, shadow, area, or perpendicular direction.",
+    "paperMethod": "Draw axes lightly, mark the initial point, use arrowheads, show dotted components, and label the final vector clearly.",
+    "digitalMethod": "Build with responsive SVG for 2D visuals and Three.js arrows for 3D visuals. Keep labels in HTML overlays for readability.",
+    "type": "2D animated",
+    "render": "projection"
+  },
+  {
+    "id": "magnitude-of-vector",
+    "number": 5,
+    "title": "Magnitude of vector",
+    "what": "Shows magnitude of vector with clean arrows, labels, and a highlighted result.",
+    "labels": [
+      "O",
+      "A",
+      "B"
+    ],
+    "concept": "Vector basics",
+    "confusionRemoved": "Students see whether the concept is about length, direction, shadow, area, or perpendicular direction.",
+    "paperMethod": "Draw axes lightly, mark the initial point, use arrowheads, show dotted components, and label the final vector clearly.",
+    "digitalMethod": "Build with responsive SVG for 2D visuals and Three.js arrows for 3D visuals. Keep labels in HTML overlays for readability.",
+    "type": "2D SVG",
+    "render": "cross"
+  },
+  {
+    "id": "unit-vector-formation",
+    "number": 6,
+    "title": "Unit vector formation",
+    "what": "Shows unit vector formation with clean arrows, labels, and a highlighted result.",
+    "labels": [
+      "O",
+      "A",
+      "B",
+      "theta"
+    ],
+    "concept": "Vector basics",
+    "confusionRemoved": "Students see whether the concept is about length, direction, shadow, area, or perpendicular direction.",
+    "paperMethod": "Draw axes lightly, mark the initial point, use arrowheads, show dotted components, and label the final vector clearly.",
+    "digitalMethod": "Build with responsive SVG for 2D visuals and Three.js arrows for 3D visuals. Keep labels in HTML overlays for readability.",
+    "type": "2D SVG",
+    "render": "axes3d"
+  },
+  {
+    "id": "equal-vectors",
+    "number": 7,
+    "title": "Equal vectors",
+    "what": "Shows equal vectors with clean arrows, labels, and a highlighted result.",
+    "labels": [
+      "O",
+      "A",
+      "B",
+      "theta",
+      "components"
+    ],
+    "concept": "Vector basics",
+    "confusionRemoved": "Students see whether the concept is about length, direction, shadow, area, or perpendicular direction.",
+    "paperMethod": "Draw axes lightly, mark the initial point, use arrowheads, show dotted components, and label the final vector clearly.",
+    "digitalMethod": "Build with responsive SVG for 2D visuals and Three.js arrows for 3D visuals. Keep labels in HTML overlays for readability.",
+    "type": "2D animated",
+    "render": "parallel"
+  },
+  {
+    "id": "negative-vectors",
+    "number": 8,
+    "title": "Negative vectors",
+    "what": "Shows negative vectors with clean arrows, labels, and a highlighted result.",
+    "labels": [
+      "O",
+      "A",
+      "B",
+      "theta",
+      "components",
+      "resultant"
+    ],
+    "concept": "Vector basics",
+    "confusionRemoved": "Students see whether the concept is about length, direction, shadow, area, or perpendicular direction.",
+    "paperMethod": "Draw axes lightly, mark the initial point, use arrowheads, show dotted components, and label the final vector clearly.",
+    "digitalMethod": "Build with responsive SVG for 2D visuals and Three.js arrows for 3D visuals. Keep labels in HTML overlays for readability.",
+    "type": "2D SVG",
+    "render": "components"
+  },
+  {
+    "id": "parallel-vectors",
+    "number": 9,
+    "title": "Parallel vectors",
+    "what": "Shows parallel vectors with clean arrows, labels, and a highlighted result.",
+    "labels": [
+      "O",
+      "A",
+      "B"
+    ],
+    "concept": "Vector basics",
+    "confusionRemoved": "Students see whether the concept is about length, direction, shadow, area, or perpendicular direction.",
+    "paperMethod": "Draw axes lightly, mark the initial point, use arrowheads, show dotted components, and label the final vector clearly.",
+    "digitalMethod": "Build with responsive SVG for 2D visuals and Three.js arrows for 3D visuals. Keep labels in HTML overlays for readability.",
+    "type": "2D SVG",
+    "render": "triangle"
+  },
+  {
+    "id": "collinear-vectors",
+    "number": 10,
+    "title": "Collinear vectors",
+    "what": "Shows collinear vectors with clean arrows, labels, and a highlighted result.",
+    "labels": [
+      "O",
+      "A",
+      "B",
+      "theta"
+    ],
+    "concept": "Vector basics",
+    "confusionRemoved": "Students see whether the concept is about length, direction, shadow, area, or perpendicular direction.",
+    "paperMethod": "Draw axes lightly, mark the initial point, use arrowheads, show dotted components, and label the final vector clearly.",
+    "digitalMethod": "Build with responsive SVG for 2D visuals and Three.js arrows for 3D visuals. Keep labels in HTML overlays for readability.",
+    "type": "2D animated",
+    "render": "parallelogram"
+  },
+  {
+    "id": "coplanar-vectors",
+    "number": 11,
+    "title": "Coplanar vectors",
+    "what": "Shows coplanar vectors with clean arrows, labels, and a highlighted result.",
+    "labels": [
+      "O",
+      "A",
+      "B",
+      "theta",
+      "components"
+    ],
+    "concept": "Vector basics",
+    "confusionRemoved": "Students see whether the concept is about length, direction, shadow, area, or perpendicular direction.",
+    "paperMethod": "Draw axes lightly, mark the initial point, use arrowheads, show dotted components, and label the final vector clearly.",
+    "digitalMethod": "Build with responsive SVG for 2D visuals and Three.js arrows for 3D visuals. Keep labels in HTML overlays for readability.",
+    "type": "2D SVG",
+    "render": "projection"
+  },
+  {
+    "id": "triangle-law-of-vector-addition",
+    "number": 12,
+    "title": "Triangle law of vector addition",
+    "what": "Shows triangle law of vector addition with clean arrows, labels, and a highlighted result.",
+    "labels": [
+      "O",
+      "A",
+      "B",
+      "theta",
+      "components",
+      "resultant"
+    ],
+    "concept": "Operations and components",
+    "confusionRemoved": "Students see whether the concept is about length, direction, shadow, area, or perpendicular direction.",
+    "paperMethod": "Draw axes lightly, mark the initial point, use arrowheads, show dotted components, and label the final vector clearly.",
+    "digitalMethod": "Build with responsive SVG for 2D visuals and Three.js arrows for 3D visuals. Keep labels in HTML overlays for readability.",
+    "type": "2D SVG",
+    "render": "cross"
+  },
+  {
+    "id": "parallelogram-law-of-vector-addition",
+    "number": 13,
+    "title": "Parallelogram law of vector addition",
+    "what": "Shows parallelogram law of vector addition with clean arrows, labels, and a highlighted result.",
+    "labels": [
+      "O",
+      "A",
+      "B"
+    ],
+    "concept": "Operations and components",
+    "confusionRemoved": "Students see whether the concept is about length, direction, shadow, area, or perpendicular direction.",
+    "paperMethod": "Draw axes lightly, mark the initial point, use arrowheads, show dotted components, and label the final vector clearly.",
+    "digitalMethod": "Build with responsive SVG for 2D visuals and Three.js arrows for 3D visuals. Keep labels in HTML overlays for readability.",
+    "type": "2D animated",
+    "render": "axes3d"
+  },
+  {
+    "id": "polygon-law-of-vector-addition",
+    "number": 14,
+    "title": "Polygon law of vector addition",
+    "what": "Shows polygon law of vector addition with clean arrows, labels, and a highlighted result.",
+    "labels": [
+      "O",
+      "A",
+      "B",
+      "theta"
+    ],
+    "concept": "Operations and components",
+    "confusionRemoved": "Students see whether the concept is about length, direction, shadow, area, or perpendicular direction.",
+    "paperMethod": "Draw axes lightly, mark the initial point, use arrowheads, show dotted components, and label the final vector clearly.",
+    "digitalMethod": "Build with responsive SVG for 2D visuals and Three.js arrows for 3D visuals. Keep labels in HTML overlays for readability.",
+    "type": "2D SVG",
+    "render": "parallel"
+  },
+  {
+    "id": "vector-subtraction-as-addition-of-negative-vector",
+    "number": 15,
+    "title": "Vector subtraction as addition of negative vector",
+    "what": "Shows vector subtraction as addition of negative vector with clean arrows, labels, and a highlighted result.",
+    "labels": [
+      "O",
+      "A",
+      "B",
+      "theta",
+      "components"
+    ],
+    "concept": "Operations and components",
+    "confusionRemoved": "Students see whether the concept is about length, direction, shadow, area, or perpendicular direction.",
+    "paperMethod": "Draw axes lightly, mark the initial point, use arrowheads, show dotted components, and label the final vector clearly.",
+    "digitalMethod": "Build with responsive SVG for 2D visuals and Three.js arrows for 3D visuals. Keep labels in HTML overlays for readability.",
+    "type": "2D SVG",
+    "render": "components"
+  },
+  {
+    "id": "multiplication-of-vector-by-scalar",
+    "number": 16,
+    "title": "Multiplication of vector by scalar",
+    "what": "Shows multiplication of vector by scalar with clean arrows, labels, and a highlighted result.",
+    "labels": [
+      "O",
+      "A",
+      "B",
+      "theta",
+      "components",
+      "resultant"
+    ],
+    "concept": "Operations and components",
+    "confusionRemoved": "Students see whether the concept is about length, direction, shadow, area, or perpendicular direction.",
+    "paperMethod": "Draw axes lightly, mark the initial point, use arrowheads, show dotted components, and label the final vector clearly.",
+    "digitalMethod": "Build with responsive SVG for 2D visuals and Three.js arrows for 3D visuals. Keep labels in HTML overlays for readability.",
+    "type": "2D animated",
+    "render": "triangle"
+  },
+  {
+    "id": "2d-vector-components",
+    "number": 17,
+    "title": "2D vector components",
+    "what": "Shows 2d vector components with clean arrows, labels, and a highlighted result.",
+    "labels": [
+      "O",
+      "A",
+      "B"
+    ],
+    "concept": "Operations and components",
+    "confusionRemoved": "Students see whether the concept is about length, direction, shadow, area, or perpendicular direction.",
+    "paperMethod": "Draw axes lightly, mark the initial point, use arrowheads, show dotted components, and label the final vector clearly.",
+    "digitalMethod": "Build with responsive SVG for 2D visuals and Three.js arrows for 3D visuals. Keep labels in HTML overlays for readability.",
+    "type": "2D SVG",
+    "render": "parallelogram"
+  },
+  {
+    "id": "3d-vector-components",
+    "number": 18,
+    "title": "3D vector components",
+    "what": "Shows 3d vector components with clean arrows, labels, and a highlighted result.",
+    "labels": [
+      "O",
+      "A",
+      "B",
+      "theta"
+    ],
+    "concept": "Operations and components",
+    "confusionRemoved": "Students see whether the concept is about length, direction, shadow, area, or perpendicular direction.",
+    "paperMethod": "Draw axes lightly, mark the initial point, use arrowheads, show dotted components, and label the final vector clearly.",
+    "digitalMethod": "Build with responsive SVG for 2D visuals and Three.js arrows for 3D visuals. Keep labels in HTML overlays for readability.",
+    "type": "2D SVG",
+    "render": "projection"
+  },
+  {
+    "id": "cartesian-vector-ai-bj-ck",
+    "number": 19,
+    "title": "Cartesian vector ai + bj + ck",
+    "what": "Shows cartesian vector ai + bj + ck with clean arrows, labels, and a highlighted result.",
+    "labels": [
+      "O",
+      "A",
+      "B",
+      "theta",
+      "components"
+    ],
+    "concept": "Operations and components",
+    "confusionRemoved": "Students see whether the concept is about length, direction, shadow, area, or perpendicular direction.",
+    "paperMethod": "Draw axes lightly, mark the initial point, use arrowheads, show dotted components, and label the final vector clearly.",
+    "digitalMethod": "Build with responsive SVG for 2D visuals and Three.js arrows for 3D visuals. Keep labels in HTML overlays for readability.",
+    "type": "2D animated",
+    "render": "cross"
+  },
+  {
+    "id": "direction-cosines",
+    "number": 20,
+    "title": "Direction cosines",
+    "what": "Shows direction cosines with clean arrows, labels, and a highlighted result.",
+    "labels": [
+      "O",
+      "A",
+      "B",
+      "theta",
+      "components",
+      "resultant"
+    ],
+    "concept": "Operations and components",
+    "confusionRemoved": "Students see whether the concept is about length, direction, shadow, area, or perpendicular direction.",
+    "paperMethod": "Draw axes lightly, mark the initial point, use arrowheads, show dotted components, and label the final vector clearly.",
+    "digitalMethod": "Build with responsive SVG for 2D visuals and Three.js arrows for 3D visuals. Keep labels in HTML overlays for readability.",
+    "type": "2D SVG",
+    "render": "axes3d"
+  },
+  {
+    "id": "direction-ratios",
+    "number": 21,
+    "title": "Direction ratios",
+    "what": "Shows direction ratios with clean arrows, labels, and a highlighted result.",
+    "labels": [
+      "O",
+      "A",
+      "B"
+    ],
+    "concept": "Operations and components",
+    "confusionRemoved": "Students see whether the concept is about length, direction, shadow, area, or perpendicular direction.",
+    "paperMethod": "Draw axes lightly, mark the initial point, use arrowheads, show dotted components, and label the final vector clearly.",
+    "digitalMethod": "Build with responsive SVG for 2D visuals and Three.js arrows for 3D visuals. Keep labels in HTML overlays for readability.",
+    "type": "2D SVG",
+    "render": "parallel"
+  },
+  {
+    "id": "dot-product-angle-diagram",
+    "number": 22,
+    "title": "Dot product angle diagram",
+    "what": "Shows dot product angle diagram with clean arrows, labels, and a highlighted result.",
+    "labels": [
+      "O",
+      "A",
+      "B",
+      "theta"
+    ],
+    "concept": "Dot/cross meaning",
+    "confusionRemoved": "Students see whether the concept is about length, direction, shadow, area, or perpendicular direction.",
+    "paperMethod": "Draw axes lightly, mark the initial point, use arrowheads, show dotted components, and label the final vector clearly.",
+    "digitalMethod": "Build with responsive SVG for 2D visuals and Three.js arrows for 3D visuals. Keep labels in HTML overlays for readability.",
+    "type": "2D animated",
+    "render": "components"
+  },
+  {
+    "id": "projection-of-vector-on-another-vector",
+    "number": 23,
+    "title": "Projection of vector on another vector",
+    "what": "Shows projection of vector on another vector with clean arrows, labels, and a highlighted result.",
+    "labels": [
+      "O",
+      "A",
+      "B",
+      "theta",
+      "components"
+    ],
+    "concept": "Dot/cross meaning",
+    "confusionRemoved": "Students see whether the concept is about length, direction, shadow, area, or perpendicular direction.",
+    "paperMethod": "Draw axes lightly, mark the initial point, use arrowheads, show dotted components, and label the final vector clearly.",
+    "digitalMethod": "Build with responsive SVG for 2D visuals and Three.js arrows for 3D visuals. Keep labels in HTML overlays for readability.",
+    "type": "2D SVG",
+    "render": "triangle"
+  },
+  {
+    "id": "dot-product-positive-zero-and-negative-cases",
+    "number": 24,
+    "title": "Dot product positive, zero, and negative cases",
+    "what": "Shows dot product positive, zero, and negative cases with clean arrows, labels, and a highlighted result.",
+    "labels": [
+      "O",
+      "A",
+      "B",
+      "theta",
+      "components",
+      "resultant"
+    ],
+    "concept": "Dot/cross meaning",
+    "confusionRemoved": "Students see whether the concept is about length, direction, shadow, area, or perpendicular direction.",
+    "paperMethod": "Draw axes lightly, mark the initial point, use arrowheads, show dotted components, and label the final vector clearly.",
+    "digitalMethod": "Build with responsive SVG for 2D visuals and Three.js arrows for 3D visuals. Keep labels in HTML overlays for readability.",
+    "type": "2D SVG",
+    "render": "parallelogram"
+  },
+  {
+    "id": "perpendicular-vectors-using-dot-product",
+    "number": 25,
+    "title": "Perpendicular vectors using dot product",
+    "what": "Shows perpendicular vectors using dot product with clean arrows, labels, and a highlighted result.",
+    "labels": [
+      "O",
+      "A",
+      "B"
+    ],
+    "concept": "Dot/cross meaning",
+    "confusionRemoved": "Students see whether the concept is about length, direction, shadow, area, or perpendicular direction.",
+    "paperMethod": "Draw axes lightly, mark the initial point, use arrowheads, show dotted components, and label the final vector clearly.",
+    "digitalMethod": "Build with responsive SVG for 2D visuals and Three.js arrows for 3D visuals. Keep labels in HTML overlays for readability.",
+    "type": "2D animated",
+    "render": "projection"
+  },
+  {
+    "id": "cross-product-right-hand-rule",
+    "number": 26,
+    "title": "Cross product right-hand rule",
+    "what": "Shows cross product right-hand rule with clean arrows, labels, and a highlighted result.",
+    "labels": [
+      "O",
+      "A",
+      "B",
+      "theta"
+    ],
+    "concept": "Dot/cross meaning",
+    "confusionRemoved": "Students see whether the concept is about length, direction, shadow, area, or perpendicular direction.",
+    "paperMethod": "Draw axes lightly, mark the initial point, use arrowheads, show dotted components, and label the final vector clearly.",
+    "digitalMethod": "Build with responsive SVG for 2D visuals and Three.js arrows for 3D visuals. Keep labels in HTML overlays for readability.",
+    "type": "2D SVG",
+    "render": "cross"
+  },
+  {
+    "id": "cross-product-area-of-parallelogram",
+    "number": 27,
+    "title": "Cross product area of parallelogram",
+    "what": "Shows cross product area of parallelogram with clean arrows, labels, and a highlighted result.",
+    "labels": [
+      "O",
+      "A",
+      "B",
+      "theta",
+      "components"
+    ],
+    "concept": "Dot/cross meaning",
+    "confusionRemoved": "Students see whether the concept is about length, direction, shadow, area, or perpendicular direction.",
+    "paperMethod": "Draw axes lightly, mark the initial point, use arrowheads, show dotted components, and label the final vector clearly.",
+    "digitalMethod": "Build with responsive SVG for 2D visuals and Three.js arrows for 3D visuals. Keep labels in HTML overlays for readability.",
+    "type": "2D SVG",
+    "render": "axes3d"
+  },
+  {
+    "id": "cross-product-area-of-triangle",
+    "number": 28,
+    "title": "Cross product area of triangle",
+    "what": "Shows cross product area of triangle with clean arrows, labels, and a highlighted result.",
+    "labels": [
+      "O",
+      "A",
+      "B",
+      "theta",
+      "components",
+      "resultant"
+    ],
+    "concept": "Dot/cross meaning",
+    "confusionRemoved": "Students see whether the concept is about length, direction, shadow, area, or perpendicular direction.",
+    "paperMethod": "Draw axes lightly, mark the initial point, use arrowheads, show dotted components, and label the final vector clearly.",
+    "digitalMethod": "Build with responsive SVG for 2D visuals and Three.js arrows for 3D visuals. Keep labels in HTML overlays for readability.",
+    "type": "2D animated",
+    "render": "parallel"
+  },
+  {
+    "id": "parallel-vectors-using-cross-product",
+    "number": 29,
+    "title": "Parallel vectors using cross product",
+    "what": "Shows parallel vectors using cross product with clean arrows, labels, and a highlighted result.",
+    "labels": [
+      "O",
+      "A",
+      "B"
+    ],
+    "concept": "Dot/cross meaning",
+    "confusionRemoved": "Students see whether the concept is about length, direction, shadow, area, or perpendicular direction.",
+    "paperMethod": "Draw axes lightly, mark the initial point, use arrowheads, show dotted components, and label the final vector clearly.",
+    "digitalMethod": "Build with responsive SVG for 2D visuals and Three.js arrows for 3D visuals. Keep labels in HTML overlays for readability.",
+    "type": "2D SVG",
+    "render": "components"
+  },
+  {
+    "id": "torque-as-cross-product",
+    "number": 30,
+    "title": "Torque as cross product",
+    "what": "Shows torque as cross product with clean arrows, labels, and a highlighted result.",
+    "labels": [
+      "O",
+      "A",
+      "B",
+      "theta"
+    ],
+    "concept": "Dot/cross meaning",
+    "confusionRemoved": "Students see whether the concept is about length, direction, shadow, area, or perpendicular direction.",
+    "paperMethod": "Draw axes lightly, mark the initial point, use arrowheads, show dotted components, and label the final vector clearly.",
+    "digitalMethod": "Build with responsive SVG for 2D visuals and Three.js arrows for 3D visuals. Keep labels in HTML overlays for readability.",
+    "type": "2D SVG",
+    "render": "triangle"
+  },
+  {
+    "id": "3d-coordinate-axes-with-vectors",
+    "number": 31,
+    "title": "3D coordinate axes with vectors",
+    "what": "Shows 3d coordinate axes with vectors with clean arrows, labels, and a highlighted result.",
+    "labels": [
+      "O",
+      "A",
+      "B",
+      "theta",
+      "components"
+    ],
+    "concept": "3D interpretation",
+    "confusionRemoved": "Students see whether the concept is about length, direction, shadow, area, or perpendicular direction.",
+    "paperMethod": "Draw axes lightly, mark the initial point, use arrowheads, show dotted components, and label the final vector clearly.",
+    "digitalMethod": "Build with responsive SVG for 2D visuals and Three.js arrows for 3D visuals. Keep labels in HTML overlays for readability.",
+    "type": "3D interactive",
+    "render": "parallelogram"
+  },
+  {
+    "id": "3d-vector-addition",
+    "number": 32,
+    "title": "3D vector addition",
+    "what": "Shows 3d vector addition with clean arrows, labels, and a highlighted result.",
+    "labels": [
+      "O",
+      "A",
+      "B",
+      "theta",
+      "components",
+      "resultant"
+    ],
+    "concept": "3D interpretation",
+    "confusionRemoved": "Students see whether the concept is about length, direction, shadow, area, or perpendicular direction.",
+    "paperMethod": "Draw axes lightly, mark the initial point, use arrowheads, show dotted components, and label the final vector clearly.",
+    "digitalMethod": "Build with responsive SVG for 2D visuals and Three.js arrows for 3D visuals. Keep labels in HTML overlays for readability.",
+    "type": "3D interactive",
+    "render": "projection"
+  },
+  {
+    "id": "3d-vector-subtraction",
+    "number": 33,
+    "title": "3D vector subtraction",
+    "what": "Shows 3d vector subtraction with clean arrows, labels, and a highlighted result.",
+    "labels": [
+      "O",
+      "A",
+      "B"
+    ],
+    "concept": "3D interpretation",
+    "confusionRemoved": "Students see whether the concept is about length, direction, shadow, area, or perpendicular direction.",
+    "paperMethod": "Draw axes lightly, mark the initial point, use arrowheads, show dotted components, and label the final vector clearly.",
+    "digitalMethod": "Build with responsive SVG for 2D visuals and Three.js arrows for 3D visuals. Keep labels in HTML overlays for readability.",
+    "type": "3D interactive",
+    "render": "cross"
+  },
+  {
+    "id": "3d-dot-product-angle-visualization",
+    "number": 34,
+    "title": "3D dot product angle visualization",
+    "what": "Shows 3d dot product angle visualization with clean arrows, labels, and a highlighted result.",
+    "labels": [
+      "O",
+      "A",
+      "B",
+      "theta"
+    ],
+    "concept": "3D interpretation",
+    "confusionRemoved": "Students see whether the concept is about length, direction, shadow, area, or perpendicular direction.",
+    "paperMethod": "Draw axes lightly, mark the initial point, use arrowheads, show dotted components, and label the final vector clearly.",
+    "digitalMethod": "Build with responsive SVG for 2D visuals and Three.js arrows for 3D visuals. Keep labels in HTML overlays for readability.",
+    "type": "3D interactive",
+    "render": "axes3d"
+  },
+  {
+    "id": "3d-cross-product-perpendicular-vector-visualization",
+    "number": 35,
+    "title": "3D cross product perpendicular vector visualization",
+    "what": "Shows 3d cross product perpendicular vector visualization with clean arrows, labels, and a highlighted result.",
+    "labels": [
+      "O",
+      "A",
+      "B",
+      "theta",
+      "components"
+    ],
+    "concept": "3D interpretation",
+    "confusionRemoved": "Students see whether the concept is about length, direction, shadow, area, or perpendicular direction.",
+    "paperMethod": "Draw axes lightly, mark the initial point, use arrowheads, show dotted components, and label the final vector clearly.",
+    "digitalMethod": "Build with responsive SVG for 2D visuals and Three.js arrows for 3D visuals. Keep labels in HTML overlays for readability.",
+    "type": "3D interactive",
+    "render": "parallel"
+  }
+]
