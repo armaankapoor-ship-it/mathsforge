@@ -19,6 +19,56 @@ It is built for CBSE Boards, JEE Main, JEE Advanced foundation, and students who
 - GitHub Pages deployment workflow
 - Local JSON content files for notes, formulas, diagrams, and questions
 
+## Separate Chapter Websites
+
+Standalone Class 12 Maths websites are included:
+
+- [Chapter 1 - Relations and Functions](chapter-1-relations-functions/index.html)
+- [Chapter 2 - Inverse Trigonometric Functions](chapter-2-inverse-trigonometric-functions/index.html)
+- [Chapter 3 - Matrices](chapter-3-matrices/index.html)
+- [Chapter 4 - Determinants](chapter-4-determinants/index.html)
+- [Chapter 5 - Continuity and Differentiability](chapter-5-continuity-differentiability/index.html)
+- [Chapter 6 - Application of Derivatives](chapter-6-application-of-derivatives/index.html)
+- [Chapter 7 - Integrals](chapter-7-integrals/index.html)
+- [Chapter 8 - Applications of Integrals](chapter-8-applications-of-integrals/index.html)
+- [Chapter 9 - Differential Equations](chapter-9-differential-equations/index.html)
+- [Chapter 11 - Three Dimensional Geometry](chapter-11-three-dimensional-geometry/index.html)
+- [Chapter 12 - Linear Programming](chapter-12-linear-programming/index.html)
+- [Chapter 13 - Probability](chapter-13-probability/index.html)
+
+Each standalone chapter website now includes 20 chapter-specific interactive 3D models with draggable, zoomable, frontend-only canvas views.
+
+You can also open the small launcher page:
+
+```text
+chapter-websites/index.html
+```
+
+## Netlify Website Names
+
+The separate chapter websites are also prepared for free Netlify deployment. The main launcher should use the site name:
+
+```text
+mathsforge
+```
+
+Each chapter website uses the chapter name plus `forge`:
+
+- `relations-functions-forge`
+- `inverse-trigonometric-functions-forge`
+- `matrices-forge`
+- `determinants-forge`
+- `continuity-differentiability-forge`
+- `application-of-derivatives-forge`
+- `integrals-forge`
+- `applications-of-integrals-forge`
+- `differential-equations-forge`
+- `three-dimensional-geometry-forge`
+- `linear-programming-forge`
+- `probability-forge`
+
+Every chapter folder includes a `netlify.toml` file and can be published as a static Netlify site with no build command and `.` as the publish directory.
+
 ## Free Tools Used
 
 - React + Vite
